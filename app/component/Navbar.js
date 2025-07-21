@@ -30,9 +30,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/">
-               
-              <h1 className="text-xl sm:text-4xl text-white font-bold">RINKI NURSES AND AYAH CENTRE </h1>
-            
+              <h1 className="text-xl sm:text-4xl text-white font-bold">RINKI NURSES AND AYAH CENTRE</h1>
             </Link>
           </div>
 
@@ -59,7 +57,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="text-gray-700 hover:text-teal-600 focus:outline-none"
+              className="text-white hover:text-teal-400 focus:outline-none" // Changed from text-gray-700 to text-white
             >
               {isOpen ? (
                 <svg
@@ -105,7 +103,7 @@ export default function Navbar() {
               { href: "/", label: "Home" },
               { href: "/about", label: "About" },
               { href: "/services", label: "Services" },
-              
+              { href: "/gallery", label: "Gallery" },
               { href: "/contact", label: "Contact" },
             ].map((link) => (
               <Link
