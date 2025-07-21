@@ -49,22 +49,22 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">Our Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/nursing-agency" className="hover:text-teal-300">Nursing Agency</Link>
+                <Link href="/" className="hover:text-teal-300">Nursing Agency</Link>
               </li>
               <li>
-                <Link href="/nanny-service" className="hover:text-teal-300">Nanny Service</Link>
+                <Link href="/" className="hover:text-teal-300">Nanny Service</Link>
               </li>
               <li>
-                <Link href="/elder-care" className="hover:text-teal-300">Elder Care Services</Link>
+                <Link href="/" className="hover:text-teal-300">Elder Care Services</Link>
               </li>
               <li>
-                <Link href="/patient-care" className="hover:text-teal-300">Patient Care Services</Link>
+                <Link href="/" className="hover:text-teal-300">Patient Care Services</Link>
               </li>
               <li>
-                <Link href="/aya-service" className="hover:text-teal-300">Aya Service</Link>
+                <Link href="/" className="hover:text-teal-300">Aya Service</Link>
               </li>
               <li>
-                <Link href="/professional-nurse-care" className="hover:text-teal-300">Professional Nurse Care</Link>
+                <Link href="/" className="hover:text-teal-300">Professional Nurse Care</Link>
               </li>
             </ul>
           </div>
@@ -82,6 +82,7 @@ export default function Footer() {
                 <div>
                   <a href="tel:8777563481" className="hover:text-teal-300 block">8777563481</a>
                   <a href="tel:9007964904" className="hover:text-teal-300 block">9007964904</a>
+                  <a href="tel:7044706455" className="hover:text-teal-300 block">7044706455</a>
                 </div>
               </li>
               <li className="flex items-center">
@@ -102,22 +103,22 @@ export default function Footer() {
             <h3 className="text-xl font-bold mb-4">More Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/babysitter" className="hover:text-teal-300">Babysitter</Link>
+                <Link href="/" className="hover:text-teal-300">Babysitter</Link>
               </li>
               <li>
-                <Link href="/housekeeping" className="hover:text-teal-300">Housekeeping</Link>
+                <Link href="/" className="hover:text-teal-300">Housekeeping</Link>
               </li>
               <li>
-                <Link href="/domestic-help" className="hover:text-teal-300">Domestic Help</Link>
+                <Link href="/" className="hover:text-teal-300">Domestic Help</Link>
               </li>
               <li>
-                <Link href="/office-cleaning" className="hover:text-teal-300">Office Housekeeping</Link>
+                <Link href="/" className="hover:text-teal-300">Office Housekeeping</Link>
               </li>
               <li>
-                <Link href="/cleaning-staff" className="hover:text-teal-300">Cleaning Staff</Link>
+                <Link href="/" className="hover:text-teal-300">Cleaning Staff</Link>
               </li>
               <li>
-                <Link href="/night-day-nursing" className="hover:text-teal-300">Night & Day Nursing</Link>
+                <Link href="/" className="hover:text-teal-300">Night & Day Nursing</Link>
               </li>
             </ul>
           </div>

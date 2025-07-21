@@ -23,7 +23,7 @@ export function FloatingButtons() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
       {/* WhatsApp Button */}
       <a
-        href="https://wa.me/918777563481 "
+        href="https://wa.me/918777563481"
         target="_blank"
         rel="noopener noreferrer"
         className="bg-green-500 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
@@ -39,6 +39,15 @@ export function FloatingButtons() {
         aria-label="Call us"
       >
         <FaPhone className="text-2xl" />
+      </a>
+
+      {/* Email Button */}
+      <a
+        href="mailto:pradippahar2017@gmail.com"
+        className="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-colors"
+        aria-label="Send us an email"
+      >
+        <FaEnvelope className="text-2xl" />
       </a>
 
       {/* Scroll to top button */}
@@ -70,73 +79,7 @@ export function FooterWithMap() {
         />
       </svg>
 
-      <div className="container mx-auto px-8 md:px-20 py-12">
-        <div className="grid md:grid-cols-3 gap-12">
-          {/* Contact Info */}
-          <div>
-            <h3 className="text-2xl font-bold mb-6">Joy Health Cares</h3>
-            <div className="space-y-4">
-              <div className="flex items-start">
-                <FaMapMarkerAlt className="text-teal-300 mt-1 mr-3" />
-                <div>
-                  <p>860/1, Sreenagar Main Road</p>
-                  <p>Sreenagar West, Srinagar</p>
-                  <p>Panchasayar, Kolkata - 700094</p>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <FaPhone className="text-teal-300 mr-3" />
-                <div>
-                  <a href="tel:9674998665" className="hover:text-teal-300">9674998665</a>,{" "}
-                  <a href="tel:8981617236" className="hover:text-teal-300">8981617236</a>
-                </div>
-              </div>
-              <div className="flex items-center">
-                <FaEnvelope className="text-teal-300 mr-3" />
-                <a href="mailto:joyhealthcareskol@gmail.com" className="hover:text-teal-300">
-                  joyhealthcareskol@gmail.com
-                </a>
-              </div>
-              <div className="flex items-center">
-                <FaClock className="text-teal-300 mr-3" />
-                <p>24/7 Emergency Services Available</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-2xl font-bold mb-6">Quick Links</h3>
-            <ul className="space-y-3">
-              <li><Link href="/" className="hover:text-teal-300">Home</Link></li>
-              <li><Link href="/about" className="hover:text-teal-300">About Us</Link></li>
-              <li><Link href="/services" className="hover:text-teal-300">Services</Link></li>
-              <li><Link href="/contact" className="hover:text-teal-300">Contact</Link></li>
-              <li><Link href="/equipment" className="hover:text-teal-300">Medical Equipment</Link></li>
-            </ul>
-          </div>
-
-          {/* Map Embed */}
-          <div>
-            <h3 className="text-2xl font-bold mb-6">Our Location</h3>
-            <div className="h-64 rounded-lg overflow-hidden shadow-xl">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.123456789012!2d88.12345678901234!3d22.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjLCsDA3JzI0LjQiTiA4OMKwMDcnMjQuNiJF!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
-
-        <div className="border-t border-teal-800 mt-12 pt-6 text-center text-teal-300">
-          <p>© {new Date().getFullYear()} Joy Health Cares. All Rights Reserved.</p>
-        </div>
-      </div>
+     
     </footer>
   );
 }
