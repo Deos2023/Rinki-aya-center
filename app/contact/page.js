@@ -163,7 +163,7 @@ export default function Contact() {
             {/* Map */}
             <div className="h-full min-h-80 rounded-lg overflow-hidden shadow-xl">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.441671031963!2d88.3495093154145!3d22.544079738902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02771346ae015d%3A0xb540e4bce39763!2s12%2C%20Mayfair%20Rd%2C%20Ballygunge%2C%20Kolkata%2C%20West%20Bengal%20700019!5e0!3m2!1sen!2sin!4v1620000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.1835065945347!2d88.36685159999999!3d22.534797599999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276dc05302437%3A0xb0decfa0e032ca5f!2sRINKI%20NURSES%20%26%20AYAH%20CENTRE!5e0!3m2!1sen!2sin!4v1753088140107!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
