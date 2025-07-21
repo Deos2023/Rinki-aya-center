@@ -27,9 +27,9 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">RINKI NURSES AND AYAH CENTRE</h3>
             <p className="mb-4">
-              Providing quality nursing and caregiving services in Kolkata since 2022.
+              Providing quality nursing and caregiving services in Kolkata since 2016.
               <br />
-              <span className="text-sm">Established: 26th May 2022</span>
+              <span className="text-sm">Established: 26th May 2016</span>
             </p>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-teal-300">

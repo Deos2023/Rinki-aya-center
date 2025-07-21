@@ -23,7 +23,7 @@ export default function About() {
             About Rinki Nurses and Ayah Centre
           </h1>
           <p className="text-white text-xl max-w-2xl">
-            Providing compassionate nursing and caregiving services in Kolkata since 2022
+            Providing compassionate nursing and caregiving services in Kolkata since 2016
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1">
               <p className="text-gray-700 mb-6">
-                Established on 26th May 2022, Rinki Nurses and Ayah Centre began with a vision to provide reliable and professional nursing and caregiving services to the Kolkata community.
+                Established on 26th May 2016, Rinki Nurses and Ayah Centre began with a vision to provide reliable and professional nursing and caregiving services to the Kolkata community.
               </p>
               <p className="text-gray-700 mb-6">
                 Founded by Pradip Pahar, our center quickly gained recognition for our dedicated team of nurses and caregivers who provide compassionate care to patients of all ages.

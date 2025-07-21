@@ -61,7 +61,7 @@ export default function Contact() {
             Contact Us
           </h1>
           <p className="text-white text-xl max-w-2xl">
-            Established on 26th May 2022 - Providing quality care services
+            Established on 26th May 2016 - Providing quality care services
           </p>
         </div>
 
@@ -112,6 +112,9 @@ export default function Contact() {
                   </p>
                   <p className="text-gray-700">
                     <a href="tel:9007964904" className="hover:text-teal-700">9007964904</a>
+                  </p>
+                  <p className="text-gray-700">
+                    <a href="tel:7044706455" className="hover:text-teal-700">7044706455</a>
                   </p>
                 </div>
               </div>
@@ -326,6 +329,12 @@ export default function Contact() {
             className="bg-teal-700 text-white px-8 py-3 rounded font-semibold hover:bg-teal-600 transition-colors"
           >
             Alternate: 9007964904
+          </a>
+          <a 
+            href="tel:7044706455" 
+            className="bg-teal-700 text-white px-8 py-3 rounded font-semibold hover:bg-teal-600 transition-colors"
+          >
+            Alternate: 7044706455
           </a>
         </div>
       </div>

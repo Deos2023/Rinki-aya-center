@@ -75,7 +75,7 @@ export default function Home() {
               {titles[currentTitle]}
             </h1>
             <p className="mb-6 text-lg">
-              Providing trusted nursing and caregiving services in Kolkata since 2022.
+              Providing trusted nursing and caregiving services in Kolkata since 2016.
             </p>
             <a 
               href="tel:8777563481" 
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-gray-700 mb-6">
-                Established on 26th May 2022, Rinki Nurses and Ayah Centre has quickly become a trusted name in Kolkata's healthcare sector. Under the leadership of Pradip Pahar, we specialize in providing comprehensive care solutions for families and medical institutions.
+                Established on 26th May 2016, Rinki Nurses and Ayah Centre has quickly become a trusted name in Kolkata's healthcare sector. Under the leadership of Pradip Pahar, we specialize in providing comprehensive care solutions for families and medical institutions.
               </p>
               <p className="text-gray-700 mb-6">
                 Our team of dedicated professionals is committed to delivering exceptional care with compassion and expertise. We understand that every client has unique needs, and we tailor our services accordingly.
@@ -363,7 +363,7 @@ export default function Home() {
             <div className="mb-8">
               <h3 className="text-xl font-bold text-teal-800 mb-3">Contact Information</h3>
               <p className="text-gray-700 mb-2">
-                <strong>Phone:</strong> 8777563481 / 9007964904
+                <strong>Phone:</strong> 8777563481 / 9007964904 /7044706455
               </p>
               <p className="text-gray-700 mb-2">
                 <strong>Email:</strong> pradippahar2017@gmail.com

@@ -123,7 +123,7 @@ export default function Services() {
             Our Services
           </h1>
           <p className="text-white text-xl max-w-2xl">
-            Comprehensive care solutions since 2022
+            Comprehensive care solutions since 2016
           </p>
         </div>
 
