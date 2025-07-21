@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="flex-shrink-0">
             <Link href="/">
                
-              <h1 className="text-2xl sm:text-4xl font-bold">RINKI NURSES AND AYAH CENTRE </h1>
+              <h1 className="text-2xl sm:text-4xl text-white font-bold">RINKI NURSES AND AYAH CENTRE </h1>
             
             </Link>
           </div>
